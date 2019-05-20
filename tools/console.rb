@@ -25,4 +25,17 @@ session1 = Session.new(client1, location2)
 session2 = Session.new(client2, location1)
 session3 = Session.new(client3, location2)
 
+passenger1 = Passenger.new("Passenger1")
+passenger2 = Passenger.new("Passenger2")
+passenger3 = Passenger.new("Passenger3")
+
+driver1 = Driver.new("Driver1")
+driver2 = Driver.new("Driver2")
+
+ride1 = Ride.new(driver1, passenger1, 10.5)
+ride2 = Ride.new(driver2, passenger2, 50.25)
+ride3 = Ride.new(driver1, passenger2, 52)
+ride4 = Ride.new(driver2, passenger1, 10)
+ride5 = Ride.new(driver1, passenger1, 3.5)
+
 Pry.start
