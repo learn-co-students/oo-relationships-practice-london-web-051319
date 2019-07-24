@@ -24,7 +24,7 @@ Write out the relationships using has_many, belongs_to and has_many_through. Cre
 - .most_popular
   - finds the listing that has had the most trips
 
-#### Guest DONE
+#### Guest  
 - #listings
   - returns an array of all listings a guest has stayed at
 - #trips
@@ -38,7 +38,7 @@ Write out the relationships using has_many, belongs_to and has_many_through. Cre
 - .find_all_by_name(name)
   - takes an argument of a name (as a string), returns the all guests with that name
 
-#### Trip
+#### Trip DONE
 - #listing
   - returns the listing object for the trip
 - #guest
